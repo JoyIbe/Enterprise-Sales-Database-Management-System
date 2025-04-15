@@ -1,4 +1,4 @@
-# Enterprise-Sales-Database-Management-System
+# Enterprise Sales Database Management System
 
 ## Optimizing Internal Sales Operations with a Scalable Data Solution
 
