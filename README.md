@@ -72,34 +72,17 @@ Store reseller company name, contact details, and linked region. Track reseller 
 **Target Management:**
 Record monthly or yearly targets per region or employee. Compare actual sales against targets for performance assessment.
 
-#### 2. Project Phases
+### 2. Project Phases
 
 **Phase 1: Database Design**
 
-Identify entities and relationships. Normalize the schema to 3NF.
+- Identify entities and relationships. Normalize the schema to 3NF.
 
-Establish primary and foreign key relationships.
+- Establish primary and foreign key relationships.
 
 **Phase 2: Implementation in SQL Server**
-Create tables:
 
-Product
-
-Sales
-
-Employee
-
-Region
-
-Reseller
-
-Suppliers
-
-EmployeeRegion
-
-Target
-
-Note: Define data types, constraints, and relationships.
+- Create tables for the database. 
 
 **Phase 3: Data Population & Constraints**
 
