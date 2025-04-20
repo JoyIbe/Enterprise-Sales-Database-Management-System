@@ -2,6 +2,17 @@
 
 ## Optimizing Internal Sales Operations with a Scalable Data Solution
 
+
+- [Project Background](#project-background)
+- [Operational Challenges](#operational-challenges)
+- [Proposed Solution](#proposed-solution)
+- [Project Overview](#project-overview)
+- [Database Scope and Tables](#database-scope-and-tables)
+- [Requirement Breakdown](#requirement-breakdown)
+- [System Architecture Overview](#system-architecture-overview)
+- [Detailed Use Cases and Business Rules](#detailed-use-cases-and-business-rules)
+
+
 ### Project Background
 
 Sabbi Enterprise is a fast-growing retail and B2B company dealing in consumer electronics, fashion items, and household products. The company operates through a network of physical stores, online platforms, and strategic resellers across multiple regions. As Sabbi expands, it faces operational bottlenecks stemming from outdated spreadsheets and siloed systems, making it hard to coordinate employees, track sales targets, and measure regional performance.
@@ -30,7 +41,7 @@ To streamline operations, Sabbi Enterprise will implement a centralized Microsof
 
 This project involves designing a robust, normalized relational database that captures company-centric activities across sales, resellers, employees, regions, and targets.
 
-### Database Scope & Tables
+### Database Scope and Tables
 
 The core tables of the database are:
 
@@ -138,7 +149,7 @@ Logic Layer |	Stored procedures and functions for automation and business rules.
 Interface Layer |	Can integrate with internal dashboards or admin portals for sales tracking.
 Analytics Layer |	Power BI or SQL views for performance visualization and reporting.
 
-### Detailed Use Cases & Business Rules
+### Detailed Use Cases and Business Rules
 **Employee-Region Mapping:** Each employee can be linked to multiple regions via the EmployeeRegion table to facilitate flexible assignments.
 
 **Sales & Target Alignment:** Every sale will be analyzed against the relevant target set in the Target table for that region and timeframe.
